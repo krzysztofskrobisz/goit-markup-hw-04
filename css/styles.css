@@ -132,12 +132,14 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color-gray);
+  fill: var(--brand-color-gray);
 }
 
 .contact-link:hover,
 .contact-link:focus,
 .contact-link:active {
   color: var(--brand-color-blue);
+  fill: var(--brand-color-blue);
 }
 
 .contact-icon {
@@ -278,6 +280,16 @@ img {
   padding-bottom: 30px;
 }
 
+.team-social-icon {
+  fill: #afb1b8;
+}
+
+.team-social-icon:hover {
+  fill: var(--brand-color-white);
+  background-color: var(--brand-color-blue);
+  border-radius: 50%;
+}
+
 .clients {
   text-align: center;
   padding-top: 94px;
@@ -285,19 +297,20 @@ img {
 
 .clients-item {
   width: 170px; height: 92px;
-  padding: 16px 32px;
-  margin: auto;
+  padding: 16px 32px;  
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
 .clients-item:hover {
   border: 1px solid var(--brand-color-blue);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 }
 
 .clients-icon {
   fill: #afb1b8;
+  color: var(--brand-color-blue);
+  
 }
 
 .clients-item:hover .clients-icon {
