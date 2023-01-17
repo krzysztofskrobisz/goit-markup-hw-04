@@ -17,7 +17,9 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--brand-color-black);
-  background-color:  var(--brand-color-white);  
+  background-color:  var(--brand-color-white);
+  max-width: 1600px;
+  margin: auto;
 }
 
 img {
@@ -291,6 +293,10 @@ img {
 .clients-item:hover {
   border: 1px solid var(--brand-color-blue);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.clients-icon {
+  fill: #afb1b8;
 }
 
 .portf-menu-list {
