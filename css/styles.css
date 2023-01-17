@@ -4,6 +4,8 @@
   --brand-color-gray: #757575;
   --brand-color-white: #fff;  
   --brand-background-gray: #2f303a;
+  --background-dark-transparent: #2f303a66;
+  --background-blue-transparent: #75dffffe;
 }
 
 *,
@@ -137,13 +139,37 @@ img {
   color: var(--brand-color-blue);
 }
 
+.contact-icon {
+  margin-right: 10px;
+}
+
+.contact-icon:hover,
+.contact-icon:focus,
+.contact-icon:active {
+  color: var(--brand-color-blue);
+}
+
 .section-h1 {  
-  background-color: var(--brand-background-gray);  
+  /* background-color: var(--brand-background-gray); */
   padding-top: 200px;
   padding-bottom: 200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  
+  
+}
+
+.section-h1-bg {
+  background: linear-gradient(
+      var(--background-dark-transparent),
+      var(--background-blue-transparent)
+    ),
+    url(../images/img-overlay-color.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
 }
 
 .section-h1-div {
@@ -304,6 +330,10 @@ img {
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
   padding: 20px 24px;
+}
+
+.project-figure:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-h3-title {
