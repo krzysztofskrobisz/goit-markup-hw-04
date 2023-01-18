@@ -4,6 +4,7 @@
   --brand-color-gray: #757575;
   --brand-color-white: #fff;  
   --brand-background-gray: #2f303a;
+  --brand-color-lightgray: #afb1b8;
 }
 
 *,
@@ -31,7 +32,7 @@ img {
   max-width: 1200px;
   margin: auto;
   padding: 0 15px;
-  /* border: 1px dashed #000; */
+  border: 1px dashed #000;
 }
 
 .flex {
@@ -116,6 +117,11 @@ img {
   color: var(--brand-color-blue);
 }
 
+.contact-list {
+  display: flex;
+  align-items: center;
+}
+
 .contact-item {
   display: inline;
   margin-right: 50px;
@@ -126,30 +132,29 @@ img {
 }
 
 .contact-link {
+  color: var(--brand-color-gray);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--brand-color-gray);
-  fill: var(--brand-color-gray);
+  display: flex;
+  align-items: center;
 }
 
 .contact-link:hover,
 .contact-link:focus,
 .contact-link:active {
-  color: var(--brand-color-blue);
-  fill: var(--brand-color-blue);
+  color: var(--brand-color-blue);  
 }
 
 .contact-icon {
+  fill: var(--brand-color-gray);
   margin-right: 10px;
 }
 
-.contact-icon:hover,
-.contact-icon:focus,
-.contact-icon:active {
-  color: var(--brand-color-blue);
+.contact-icon:hover {
+  fill: var(--brand-color-blue);
 }
 
 .section-h1 {  
@@ -289,6 +294,8 @@ img {
   background-color: var(--brand-color-blue);
   border-radius: 50%;
 }
+
+/* CLIENTS */
 
 .clients {
   text-align: center;
