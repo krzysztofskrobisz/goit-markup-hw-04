@@ -32,7 +32,7 @@ img {
   max-width: 1200px;
   margin: auto;
   padding: 0 15px;
-  border: 1px dashed #000;
+  /* border: 1px dashed #000; */
 }
 
 .flex {
@@ -277,6 +277,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 30px;
+  /* uwaga, daję 30 a powinno być 10, ale wtedy, gdy niebieski okrąg będzie miał 44 px */
   color: var(--brand-color-gray);
 }
 
@@ -285,8 +287,14 @@ img {
   padding-bottom: 30px;
 }
 
+.team-flex {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
 .team-social-icon {
-  fill: #afb1b8;
+  fill: var(--brand-color-lightgray);
 }
 
 .team-social-icon:hover {
@@ -295,8 +303,6 @@ img {
   border-radius: 50%;
 }
 
-/* CLIENTS */
-
 .clients {
   text-align: center;
   padding-top: 94px;
@@ -304,7 +310,7 @@ img {
 
 .clients-item {
   width: 170px; height: 92px;
-  padding: 16px 32px;  
+  padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -315,12 +321,10 @@ img {
 }
 
 .clients-icon {
-  fill: #afb1b8;
-  color: var(--brand-color-blue);
-  
+  fill: var(--brand-color-lightgray);
 }
 
-.clients-item:hover .clients-icon {
+.clients-icon:hover {
   fill: var(--brand-color-blue);
 }
 
@@ -394,6 +398,14 @@ img {
   color: var(--brand-color-gray);
 }
 
+
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .footer .logo {  
   color: var(--brand-color-white);
   float: none;
@@ -425,4 +437,38 @@ img {
 
 .address-item span {
   text-decoration: underline;
+}
+
+
+
+
+.footer-social {
+  margin-left: 70px;
+  padding-bottom: 10px;
+}
+
+.footer-h3-title {  
+  font-weight: 700;
+  font-size: 14px;
+  line-height:  1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--brand-color-white);
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.footer-social-icon {
+  fill: var(--brand-color-white);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-icon:hover {
+  background-color: var(--brand-color-blue);
 }
