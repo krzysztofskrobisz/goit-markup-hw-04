@@ -398,8 +398,6 @@ img {
   color: var(--brand-color-gray);
 }
 
-
-
 .footer-content {
   display: flex;
   flex-direction: row;
@@ -438,9 +436,6 @@ img {
 .address-item span {
   text-decoration: underline;
 }
-
-
-
 
 .footer-social {
   margin-left: 70px;
