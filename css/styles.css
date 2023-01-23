@@ -277,7 +277,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   /* uwaga, daję 30 a powinno być 10, ale wtedy, gdy niebieski okrąg będzie miał 44 px */
   color: var(--brand-color-gray);
 }
@@ -286,22 +286,39 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.a-team-social {
+  width: 44px; height: 44px;
+  /* border: 1px solid rgb(0, 166, 255); */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.a-team-social:hover {
+  background-color: var(--brand-color-blue);
+}
 
 .team-flex {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
 }
 
 .team-social-icon {
   fill: var(--brand-color-lightgray);
 }
 
-.team-social-icon:hover {
+.a-team-social:hover svg {
+  fill: var(--brand-color-white)
+}
+
+/* .team-social-icon:hover {
   fill: var(--brand-color-white);
   background-color: var(--brand-color-blue);
   border-radius: 50%;
-}
+} */
 
 .clients {
   text-align: center;
@@ -458,12 +475,28 @@ img {
   gap: 10px;
 }
 
-.footer-social-icon {
-  fill: var(--brand-color-white);
+.a-footer-social {
+  width: 44px; height: 44px;
+  /* border: 1px solid rgb(0, 166, 255); */
   background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
 }
 
-.footer-social-icon:hover {
+
+.footer-social-icon {
+  fill: var(--brand-color-white);
+  /* background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%; */
+}
+
+/* .footer-social-icon:hover {
+  fill: var(--brand-color-blue);
+  background-color: var(--brand-color-blue);
+} */
+
+.a-footer-social:hover {
   background-color: var(--brand-color-blue);
 }
