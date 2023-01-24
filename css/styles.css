@@ -133,29 +133,31 @@ img {
 
 .contact-link {
   color: var(--brand-color-gray);
+  fill: var(--brand-color-gray);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 .contact-link:hover,
 .contact-link:focus,
 .contact-link:active {
-  color: var(--brand-color-blue);  
+  color: var(--brand-color-blue);
+  fill: var(--brand-color-blue);
 }
 
 .contact-icon {
-  fill: var(--brand-color-gray);
+  /* fill: var(--brand-color-gray); */
   margin-right: 10px;
 }
 
-.contact-icon:hover {
+/* .contact-icon:hover {
   fill: var(--brand-color-blue);
-}
+} */
 
 .section-h1 {  
   background-color: var(--brand-background-gray);
@@ -296,7 +298,8 @@ img {
   border-radius: 50%;
 }
 
-.a-team-social:hover {
+.a-team-social:hover,
+.a-team-social:focus {
   background-color: var(--brand-color-blue);
 }
 
@@ -310,7 +313,8 @@ img {
   fill: var(--brand-color-lightgray);
 }
 
-.a-team-social:hover svg {
+.a-team-social:hover svg,
+.a-team-social:focus svg {
   fill: var(--brand-color-white)
 }
 
@@ -332,7 +336,8 @@ img {
   border-radius: 4px;
 }
 
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
   border: 1px solid var(--brand-color-blue);
   /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 }
@@ -341,7 +346,8 @@ img {
   fill: var(--brand-color-lightgray);
 }
 
-.clients-icon:hover {
+.clients-icon:hover,
+.clients-icon:focus {
   fill: var(--brand-color-blue);
 }
 
@@ -399,6 +405,7 @@ img {
 
 .project-figure:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .project-h3-title {
@@ -423,7 +430,7 @@ img {
 
 .footer .logo {  
   color: var(--brand-color-white);
-  float: none;
+  float: none;  
 }
 
 .address-list {
@@ -437,6 +444,7 @@ img {
   letter-spacing: 0.03em;
   font-style: normal;
   color: var(--brand-color-white);
+  padding-bottom: 9px;
 }
 
 .address-link {
@@ -456,7 +464,7 @@ img {
 
 .footer-social {
   margin-left: 70px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .footer-h3-title {  
@@ -485,7 +493,6 @@ img {
   border-radius: 50%;
 }
 
-
 .footer-social-icon {
   fill: var(--brand-color-white);
   /* background-color: rgba(255, 255, 255, 0.1);
@@ -497,6 +504,7 @@ img {
   background-color: var(--brand-color-blue);
 } */
 
-.a-footer-social:hover {
+.a-footer-social:hover,
+.a-footer-social:focus {
   background-color: var(--brand-color-blue);
 }
