@@ -536,6 +536,13 @@ img {
   align-items: center;
 }
 
+.socials-icon-box-footer {
+  fill:  #F4F4FD;
+    /* display: block;
+    width: 16px;
+    height: 16px; */
+}
+
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: var(--success-color);
