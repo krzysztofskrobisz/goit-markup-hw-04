@@ -411,7 +411,11 @@ img {
   background-color: var(--pressed_state-color);
 }
 
-/*Studio Customers Section no. 5 Styles*/
+.socials-icon-box {
+    fill: #f4f4fd;
+}
+
+/*Studio Customers Section no.5 Styles*/
 
 .section-customers {
   background-color: var(--white_background-color);
@@ -468,7 +472,7 @@ img {
 .footer {
   background-color: var(--hero_background-color);
   padding: 100px 0;
-  /* margin: 0 auto;   */
+  /* margin: 0 auto; */
 }
 
 .footer-navigation-logo {
@@ -538,7 +542,6 @@ img {
 
 .socials-icon-box-footer {
   fill:  #f4f4fd;
-
 }
 
 .footer-socials-link:hover,
