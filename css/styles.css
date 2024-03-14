@@ -108,11 +108,9 @@ img {
 .address-link {
   color: var(--text-color);
   font-size: 16px;
-  /* font-weight: 500; */
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* cursor: pointer;
-  text-decoration: none; */
 }
 
 .address-link:hover,
@@ -133,9 +131,10 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  /* margin: auto auto 48px auto; TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
   text-align: center;
-  /* font-weight: 700; */
+  font-weight: 700;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-section-button {
@@ -146,18 +145,18 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: block;
-  /* margin: auto auto auto auto; TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
-/* .hero-section-button:hover,
+.hero-section-button:hover,
 .hero-section-button:focus {
-  background-color: var(--pressed_state-color); TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ
-} */
+  background-color: var(--pressed_state-color);
+}
 
 /* section no2 our strong sides */
 
@@ -207,7 +206,7 @@ img {
 
 .team-section-title {
   color: var(--dark-color);
-  /* font-weight: 500; */
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -252,9 +251,14 @@ img {
 }
 
 .portfolio-section-title {
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   margin-bottom: 72px;
-  /* font-size: 36px; TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
-  /* margin: auto auto auto auto; czy jakoś inaczej, ale trzeba wyśrodkować TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
 }
 
 .portfolio-section-ul {
@@ -287,7 +291,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 /* footer */
@@ -316,6 +320,7 @@ footer {
 
 .footer-text {
   color: var(--light-color);
+  font-size: 16px;
   /* margin-bottom: 16px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
