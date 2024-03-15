@@ -189,6 +189,9 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-tf);
 }
 
 .hero-section-button:hover,
