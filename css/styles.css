@@ -405,6 +405,16 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: start;
+  /* text-align: start; */
   margin-bottom: 16px;
+}
+
+.footer-socials-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-socials-link {
+  width: 40px;
+  height: 40px;
 }
