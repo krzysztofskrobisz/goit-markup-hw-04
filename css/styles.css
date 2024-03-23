@@ -222,6 +222,23 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.sides-section-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: var(--light-color);
+  border-radius: 4px;
+  border: 1px solid var(--subtle_text-color);
+  margin-bottom: 8px;
+}
+
+.sides-section-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .sides-section-heading {
   color: var(--dark-color);
   font-weight: 500;
