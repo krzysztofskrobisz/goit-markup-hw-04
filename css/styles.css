@@ -355,7 +355,7 @@ img {
 
 /* footer */
 
-.container-footer {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
@@ -363,6 +363,10 @@ img {
 footer {
   background-color: var(--hero_background-color);
   padding: 100px 0;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 .footer-navigation-logo {
