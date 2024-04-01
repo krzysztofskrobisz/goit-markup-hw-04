@@ -308,8 +308,8 @@ img {
   justify-content: center;
   /* align-content: center; */
   gap: 24px;
-  /* margin-top: 8px;  
-  flex-basis: calc((100% - 72px) / 4); */
+  margin-top: 8px;  
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-section-socials-link {
@@ -338,15 +338,6 @@ img {
 .team-section-socials-icon-box {
   fill: #f4f4fd;
 }
-
-
-
-
-
-
-
-
-
 
 /* section no4 our portfolio */
 
@@ -398,6 +389,29 @@ img {
   letter-spacing: 0.02em;
   /* margin-bottom: 8px; */
 }
+
+.portfolio-section-list-a {
+  display: block;
+  transition-property: box-shadow;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-tf);
+}
+
+.portfolio-section-list-a:hover,
+.portfolio-section-list-a:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-section-list-div {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
+
 
 /* footer */
 
