@@ -332,7 +332,7 @@ img {
 
 .team-section-socials-icon-color:hover,
 .team-section-socials-icon-color:focus {
-  background-color: var(--success-color);
+  background-color: var(--pressed_state-color);
 }
 
 .team-section-socials-icon-box {
