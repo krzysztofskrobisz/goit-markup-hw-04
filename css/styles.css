@@ -407,7 +407,24 @@ img {
   overflow: hidden;
 }
 
+.portfolio-section-list-text {
+  position: absolute;
+  top: 0;
+  color: var(--light-color);
+  background-color: var(--primary_brand-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  height: 100%;
+  width: 100%;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition: transform var(--transition-duration) var(--transition-tf);
+}
 
+.portfolio-section-list-a .portfolio-section-list-text, .portfolio-section-list-a:focus .portfolio-section-list-text {
+  transform: translateY(0%);
+}
 
 
 
