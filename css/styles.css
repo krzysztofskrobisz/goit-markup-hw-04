@@ -422,13 +422,9 @@ img {
   transition: transform var(--transition-duration) var(--transition-tf);
 }
 
-.portfolio-section-list-a .portfolio-section-list-text, .portfolio-section-list-a:focus .portfolio-section-list-text {
+.portfolio-section-list-a:hover .portfolio-section-list-text, .portfolio-section-list-a:focus .portfolio-section-list-text {
   transform: translateY(0%);
 }
-
-
-
-
 
 /* footer */
 
